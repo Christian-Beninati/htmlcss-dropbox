@@ -205,3 +205,25 @@ section h3 {
     height: 412px;
 }
 
+/* footer */
+
+footer {
+    background-color: peru;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    min-height: 450px;
+}
+
+.row-footer {
+    margin: 0 -10px;
+    flex-grow: 1;
+}
+
+.column-footer {
+    flex-basis: calc(100% / 5);
+    padding: 0 10px;
+}
