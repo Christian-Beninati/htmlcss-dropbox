@@ -50,17 +50,19 @@ body{
 }
 
 /* jumbotron */
-.container-jumbotron-tittle {
+.container-jumbotron {
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 40px;
     margin-top: 70px;
-    font-size: 40px;
 }
 
-.container-jumbotron-content {
-    max-width: 1200px;
-    margin: 0 auto;
+.container-jumbotron > h1 {
+    font-size: 80px;
+    font-weight: 720;
+    margin-bottom: 40px;
+}
+
+.jumbotron-content {
     /* align-items: flex-start; */
 }
 
