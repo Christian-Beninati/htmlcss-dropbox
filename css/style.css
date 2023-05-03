@@ -34,10 +34,6 @@ body{
 }
 
 /* utilities */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .d-flex {
     display: flex;  
@@ -74,15 +70,138 @@ body{
 }
 
 .text-jumbotron {
-    flex-basis: 30%;
+    flex-basis: 40%;
     /* ?todo remove */
     height: 412px;
     background-color: blue;
 }
 
 .image-jumbotron {
-    flex-basis: 70%;
+    flex-basis: 60%;
     /* ?todo remove */
     height: 412px;
     background-color: red;
 }
+
+/* main */
+section {
+    padding: 70px 0;
+    /* min-height: 600px; */
+}
+.container-section  {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* ?todo remove */ 
+    background-color: lightblue;
+}
+
+/* first section */
+section h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.invoicing {
+    padding: 30px 0;
+}
+
+.row-bus-plan {
+    margin: 0 -20px;
+    margin-bottom: 50px;
+    /* ?todo remove */ 
+    background-color: green;
+    
+}
+.column-bus-plan {
+    flex-basis: calc( 100% / 3 );
+    padding: 0 20px;
+}
+
+.card-bus-plan {
+    flex-grow: 1;
+    background-color: blue;
+}
+
+.customised-bus-plan {
+    /* ?todo remove */ 
+    background-color: blue;
+    height: 250px;
+}
+
+/* second section */
+
+.partener-dropbox {
+    /* ?todo remove */ 
+    height: 500px;
+    background-color: purple;
+}
+
+.left-image {
+    flex-basis: 60%;
+    /* ?todo remove */ 
+    background-color: red;
+    height: 100%;
+}
+
+.right-text {
+    flex-basis: 40%;
+    /* ?todo remove */ 
+    background-color: blue;
+    height: 100%;
+}
+
+/* third section */
+
+.row-operation {
+    margin: 0 -10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.column-operation {
+    flex-basis: calc(100% / 3);
+    padding: 10px 10px;
+    /* ?todo remove */ 
+    background-color: violet;
+}
+
+.card-operation {
+    width: 300px;
+    min-height: 350px;
+    /* ?todo remove */ 
+    background-color: aqua;
+}
+
+.our-customers {
+    padding-bottom: 70px;
+}
+
+/* fifth section */
+.compatible-solutions > * {
+    flex-basis: calc(100% / 3);
+    min-height: 650px;
+    /* ?todo remove */ 
+    background-color: violet;
+}
+
+.call-to-action {
+    min-height: 350px;
+    /* ?todo remove */ 
+    background-color: salmon;
+
+}
+
+.left-call-to-act {
+    flex-basis: 60%;
+    /* ?todo remove */ 
+    background-color: red;
+    height: 412px;
+}
+
+.right-call-to-act {
+    flex-basis: 40%;
+    /* ?todo remove */ 
+    background-color: blue;
+    height: 412px;
+}
+
