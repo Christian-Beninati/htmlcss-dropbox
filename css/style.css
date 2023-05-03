@@ -14,11 +14,18 @@
 /* generics */
 body{
     font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
 }
 
 .navbar {
+    background-color: var(--bgd-white);
     height: 80px;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .jumbotron {
