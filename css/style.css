@@ -7,7 +7,8 @@
 
 /* custom properties */
 :root {
-    
+    --bgd-white: #FFFFFF;
+    --bgd-light-blue: #B4D0E7;
 }
 
 /* generics */
@@ -15,8 +16,14 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
-    
+.navbar {
+    height: 80px;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    height: 750px;
+    background-color: var(--bgd-light-blue);
 }
 
 /* utilities */
@@ -31,4 +38,42 @@ header {
 
 .debug .border {
     border: 2px dashed black; 
+}
+
+/* navbar */
+.navbar-left, .navbar-right{
+    align-items: center;
+}
+
+.navbar-left *, .navbar-right * {
+    padding: 0 20px;
+}
+
+/* jumbotron */
+.container-jumbotron-tittle {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.container-jumbotron-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* align-items: flex-start; */
+}
+
+.text-jumbotron {
+    flex-basis: 30%;
+    /* ?todo remove */
+    height: 412px;
+    background-color: blue;
+}
+
+.image-jumbotron {
+    flex-basis: 70%;
+    /* ?todo remove */
+    height: 412px;
+    background-color: red;
 }
