@@ -34,7 +34,6 @@ body{
 }
 
 .jumbotron {
-    height: 750px;
     background-color: var(--bgd-light-blue);
 }
 
@@ -47,6 +46,16 @@ body{
 .debug .border {
     border: 2px dashed black; 
 }
+
+p {
+    font-weight: 300;
+}
+
+section h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
 
 /* navbar */
 .navbar-left, .navbar-right{
@@ -71,7 +80,7 @@ a {
 }
 .button a {
     background-color: var(--bgd-button-blue);
-    padding: 5px 15px;
+    padding: 10px 20px;
     color: var(--font-white);
 }
 
@@ -79,31 +88,37 @@ a {
 .container-jumbotron {
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 70px;
 }
 
 .container-jumbotron > h1 {
     font-size: 80px;
     font-weight: 720;
-    margin-bottom: 40px;
-}
-
-.jumbotron-content {
-    /* align-items: flex-start; */
+    margin-bottom: 50px;
 }
 
 .text-jumbotron {
-    flex-basis: 40%;
-    /* ?todo remove */
-    height: 412px;
-    background-color: blue;
+    flex-basis: 30%;
+}
+
+.button.free-trial {
+    padding: 40px 0;
+}
+
+.arrow-down {
+    font-size: 50px;
+    padding-top: 40px;
 }
 
 .image-jumbotron {
-    flex-basis: 60%;
-    /* ?todo remove */
-    height: 412px;
-    background-color: red;
+    flex-basis: 70%;
+    position: relative;
+}
+
+.image-jumbotron > img {
+    position: absolute;
+    bottom: -105px;
+    right: -26px;
+    width: 100%;
 }
 
 /* main */
@@ -119,9 +134,8 @@ section {
 }
 
 /* first section */
-section h3 {
-    font-size: 40px;
-    padding-bottom: 30px;
+h3.plan-for-you.sml-tittle {
+    margin-top: 80px;
 }
 
 .invoicing {
