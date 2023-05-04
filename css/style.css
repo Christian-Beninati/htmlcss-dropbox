@@ -290,15 +290,10 @@ section img {
 
 .contain-our-customers {
     width: 600px;
+    margin-top: 120px;
 }
 
-
-
-
-
-
-
-/* fifth section */
+/* fourth section */
 .compatible-solutions > * {
     flex-basis: calc(100% / 3);
     min-height: 650px;
@@ -326,6 +321,12 @@ section img {
     background-color: blue;
     height: 412px;
 }
+
+
+
+
+
+
 
 /* footer */
 
