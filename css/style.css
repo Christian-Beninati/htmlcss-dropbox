@@ -9,6 +9,11 @@
 :root {
     --bgd-white: #FFFFFF;
     --bgd-light-blue: #B4D0E7;
+    --bgd-button-blue: #2361FF;
+    --font-blck: #000000;
+    --font-navbar: #464646;
+    --font-white: #FFFFFF;
+    
 }
 
 /* generics */
@@ -49,7 +54,25 @@ body{
 }
 
 .navbar-left *, .navbar-right * {
-    padding: 0 20px;
+    padding: 0 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    color: var(--font-navbar);
+}
+
+a {
+    text-decoration: none;
+
+}
+.button a {
+    background-color: var(--bgd-button-blue);
+    padding: 5px 15px;
+    color: var(--font-white);
 }
 
 /* jumbotron */
@@ -172,8 +195,8 @@ section h3 {
     background-color: aqua;
 }
 
-.our-customers {
-    padding-bottom: 70px;
+.contain-our-customers {
+    width: 600px;
 }
 
 /* fifth section */
