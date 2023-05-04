@@ -17,7 +17,7 @@
     --font-white: #FFFFFF;
     --fort-size-large: 80px;
     --font-size-medium: 40px;
-    --font-size-med-small: 30px;
+    --font-size-med-small: 25px;
     --font-size-small: 15px;
 }
 
@@ -180,13 +180,13 @@ h3.plan-for-you.sml-tittle {
     border-bottom: 1px solid var(--color-border-card);
 }
 
-.card-content, .pers-cont-left {
+.space {
     padding: 20px;
 }
 
-.service > h4, .pers-cont-left > h4 {
-    font-size: var(--font-size-med-small);
+h4 {
     font-weight: 500;
+    font-size: var(--font-size-med-small);
 }
 
 .card-content *, .pers-cont-left * {
@@ -243,26 +243,40 @@ h5 {
 }
 
 /* second section */
-
-.partener-dropbox {
-    /* ?todo remove */ 
-    height: 500px;
-    background-color: purple;
+section img {
+    width: 100%;
+    height: auto;
 }
-
 .left-image {
     flex-basis: 60%;
-    /* ?todo remove */ 
-    background-color: red;
-    height: 100%;
 }
 
 .right-text {
+    padding: 50px 45px;
     flex-basis: 40%;
-    /* ?todo remove */ 
-    background-color: blue;
-    height: 100%;
 }
+
+.right-text > p {
+    padding: 30px 0;
+}
+
+.left-image > img {
+    width: 580px;
+    background-position: ;
+}
+
+.button.find-partner > a {
+    background-color: var(--bgd-white);
+    color: var(--font-blck);
+    border: 1px solid var(--font-blck);
+}
+
+.button.find-partner {
+    margin-top: 30px;
+}
+
+
+
 
 /* third section */
 
