@@ -197,7 +197,7 @@ h4 {
     display: inline-block;
 }
 
-.buy-now {
+.buy-now a {
     text-decoration: underline;
     color: var(--col-blue);
 }
@@ -229,8 +229,6 @@ h5 {
 
 .pers-cont-right {
     width: 30%;
-    /* background-color: green; */
-    height: 150px;
 }
 
 .sales-office  {
@@ -275,34 +273,31 @@ section img {
     margin-top: 30px;
 }
 
-
-
-
 /* third section */
-
 .row-operation {
-    margin: 0 -10px;
+    margin: 0 -20px;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
 .column-operation {
     flex-basis: calc(100% / 3);
-    padding: 10px 10px;
-    /* ?todo remove */ 
-    background-color: violet;
+    padding: 10px 19px;
 }
 
-.card-operation {
-    width: 300px;
-    min-height: 350px;
-    /* ?todo remove */ 
-    background-color: aqua;
+.dropbox-bus  p {
+    padding: 30px 10px ;
 }
+
+
+
 
 .contain-our-customers {
     width: 600px;
 }
+
+
+
 
 /* fifth section */
 .compatible-solutions > * {
