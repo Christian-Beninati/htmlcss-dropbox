@@ -129,7 +129,6 @@ a {
 /* main */
 section {
     padding: 70px 0;
-    /* min-height: 600px; */
 }
 .container-section  {
     max-width: 1000px;
@@ -197,7 +196,7 @@ h4 {
     display: inline-block;
 }
 
-.buy-now a {
+.buy-now a, .discover-more a {
     text-decoration: underline;
     color: var(--col-blue);
 }
@@ -289,12 +288,12 @@ section img {
     padding: 30px 10px ;
 }
 
-
-
-
 .contain-our-customers {
     width: 600px;
 }
+
+
+
 
 
 
