@@ -19,6 +19,15 @@
     --font-size-medium: 40px;
     --font-size-med-small: 25px;
     --font-size-small: 15px;
+    --bgd-lf-squ-left-top: #A1D29B;
+    --bgd-lf-squ-right-top: #61092B;
+    --bgd-lf-squ-left-bottom: #2893CE;
+    --bgd-lf-squ-right-bottom: #F8261C;
+    --bgd-squ-centre: #F5F5F5;
+    --bgd-rg-squ-left-top: #D51F1F;
+    --bgd-rg-squ-right-top: #B4D0E7;
+    --bgd-rg-squ-left-bottom: #0D2481;
+    --bgd-rg-squ-right-bottom: #FCD830;
 }
 
 /* generics */
@@ -296,9 +305,87 @@ section img {
 /* fourth section */
 .compatible-solutions > * {
     flex-basis: calc(100% / 3);
-    min-height: 650px;
+    min-height: 625px;
     /* ?todo remove */ 
     background-color: violet;
+}
+
+/* square left */
+.comp-solut-left {
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+
+.comp-solut-left div {
+    position: absolute;
+    width: 310px;
+    height: 310px;
+}
+
+.l-top-lef {
+    top: 0;
+    left: 0;
+    background-color: var(--bgd-lf-squ-left-top);
+}
+
+.l-top-righ {
+    top: 0;
+    right: 0;
+    background-color: var(--bgd-lf-squ-right-top);
+}
+
+.l-bot-lef {
+    bottom: 0;
+    left: 0;
+    background-color: var(--bgd-lf-squ-left-bottom);
+}
+
+.l-bot-righ {
+    bottom: 0;
+    right: 0;
+    background-color: var(--bgd-lf-squ-right-bottom);
+}
+
+/* square middle */
+.comp-solut-middle {
+    background-color: var(--bgd-squ-centre);
+}
+
+/* square right */
+.comp-solut-right {
+    position: relative;
+    justify-content: center;
+   align-items: center;
+ }
+ 
+ .comp-solut-right div {
+     position: absolute;
+     width: 310px;
+     height: 310px;
+ }
+.r-top-lef {
+    top: 0;
+    left: 0;
+    background-color: var(--bgd-rg-squ-left-top);
+}
+
+.r-top-righ {
+    top: 0;
+    right: 0;
+    background-color: var(--bgd-rg-squ-right-top);
+}
+
+.r-bot-lef {
+    bottom: 0;
+    left: 0;
+    background-color: var(--bgd-rg-squ-left-bottom);
+}
+
+.r-bot-righ {
+    bottom: 0;
+    right: 0;
+    background-color: var(--bgd-rg-squ-right-bottom);
 }
 
 .call-to-action {
