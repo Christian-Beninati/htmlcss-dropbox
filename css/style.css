@@ -60,12 +60,12 @@ img {
     height: auto;
 }
 
-.mb-30 {
-    margin-bottom: 30px;
+.pad-50 { 
+    padding: 50px 0;
 }
 
-.mb-50 { 
-    margin-bottom: 50px;
+.pad-40 {
+    padding: 40px 0;
 }
 
 a {
@@ -108,13 +108,12 @@ ul {
 /* jumbotron */
 .jumbotron {
     background-color: var(--bgd-light-blue);
+    height: 700px;
 }
 
 .container-jumbotron {
     max-width: 1200px;
     margin: 0 auto;
-    /* position: absolute; */
-
 }
 
 .container-jumbotron > h1 {
@@ -126,8 +125,8 @@ ul {
     flex-basis: 30%;
 }
 
-.button.free-trial {
-    padding: 40px 0;
+.col-img-jumb {
+    flex-basis: 70%;
 }
 
 .arrow-down {
@@ -135,17 +134,7 @@ ul {
     padding-top: 40px;
 }
 
-.col-img-jumb {
-    flex-basis: 70%;
-    position: relative;
-}
 
-.col-img-jumb > img {
-    position: absolute;
-    bottom: -105px;
-    right: -26px;
-     width: 100%;
-}
 
 /* main */
 section {
