@@ -74,10 +74,19 @@ img {
 
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 ul {
     list-style-type: none;
+}
+
+.option-buy > p, .card-header > p, .invoicing p {
+    display: inline-block;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 /* navbar */
@@ -139,7 +148,6 @@ ul {
 }
 
 
-
 /* main */
 section {
     padding: 70px 0;
@@ -149,10 +157,8 @@ section {
     margin: 0 auto;
 }
 
+
 /* first section */
-h3.plan-for-you.sml-tittle {
-    /* margin-top: 80px; */
-}
 
 .invoicing {
     padding: 20px 0;
@@ -202,12 +208,13 @@ h4 {
     font-size: var(--font-size-med-small);
 }
 
-.card-content *, .pers-cont-left * {
-    padding: 10px 0;
+.list-icon li {
+    padding-left: 20px;
+    text-indent: -10px;
 }
 
-.option-buy > p, .card-header >p {
-    display: inline-block;
+.card-content *, .pers-cont-left * {
+    padding: 10px 0;
 }
 
 .buy-now a, .discover-more a {
