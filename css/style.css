@@ -402,8 +402,23 @@ h5 {
    padding: 10px 50px;
 }
 
+/* fifth section */
+.question {
+    justify-content: space-between;
+}
 
+.first-q, .third-q {
+    border-top: 1px solid  black;
+    border-bottom: 1px solid black;
+}
 
+.frequent-questions > h3 {
+    padding-bottom: 50px;
+}
+
+.pad-l-40 {
+    padding-right: 40px;
+}
 
 
 
