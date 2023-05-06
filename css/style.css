@@ -9,11 +9,13 @@
 :root {
     --bgd-white: #FFFFFF;
     --bgd-light-blue: #B4D0E7;
+    --bgd-footer: #000000;
     --col-blue: #2361FF;
     --col-check-but-grey: #D0D0D3;
     --color-border-card: #D0D0D3;
     --font-blck: #000000;
     --font-navbar: #464646;
+    --font-selec-lang: #999999;
     --font-white: #FFFFFF;
     --font-call-to-act: #61092B;
     --fort-size-large: 80px;
@@ -420,31 +422,61 @@ h5 {
     padding-right: 40px;
 }
 
-
-
-
 /* footer */
-
 footer {
-    background-color: peru;
+    background-color: var(--bgd-footer);
+    margin-top: 80px;
 }
 
 .container-footer {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
-    margin-top: 70px;
     min-height: 450px;
 }
 
 .row-footer {
     margin: 0 -10px;
-    flex-grow: 1;
+    padding: 100px 0;
 }
 
 .column-footer {
     flex-basis: calc(100% / 5);
-    padding: 0 10px;
+    padding: 0 50px;
 }
+
+.row-footer h4 {
+    padding-bottom: 20px;
+}
+
+.row-footer li {
+    padding-bottom: 10px;
+}
+
+.row-footer h4, .row-footer a {
+    color: var(--font-white);
+}
+
+.footer-bot::before {
+    content: ' ';
+    display: block;
+    width: 10%;
+    border: 1px solid var(--font-white);
+}
+
+.select-language {
+    align-items: center;
+    color: var(--font-selec-lang);
+}
+
+.select-language > p {
+    padding: 40px 5px;
+}
+
+.footer-bot {
+    padding: 0 35px;
+}
+
+
 
 
 
