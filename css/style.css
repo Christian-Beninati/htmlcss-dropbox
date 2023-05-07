@@ -382,6 +382,10 @@ h5 {
     align-items: center;
 }
 
+.left-sq img, .right-sq img {
+    filter: invert(94%) sepia(100%) saturate(24%) hue-rotate(52deg) brightness(106%) contrast(105%);
+}
+
 .call-left {
     flex-basis: 50%;
 }
