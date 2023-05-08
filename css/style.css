@@ -438,7 +438,6 @@ h5 {
 
 /* fifth section */
 .question {
-    justify-content: space-between;
     padding: 40px 0;
 }
 
@@ -454,6 +453,35 @@ h5 {
 .question i {
     padding-right: 40px;
 }
+
+.quest {
+    justify-content: space-between
+}
+
+.quest:hover + .answer {
+    display: block;
+}
+
+.quest:hover .icon-up {
+    display: block;
+    padding-top:2px;
+}
+
+.answer, .icon-up {
+    padding-top: 20px;
+    display: none;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.quest:hover  .icon-dow {
+    display: none;
+}
+
+
 
 /* footer */
 footer {
