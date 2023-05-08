@@ -130,6 +130,21 @@ ul {
     color: var(--font-white);
     display: block;
     text-align: center;
+    position: relative;
+}
+
+.actions  a, .menu a {
+    padding: 28px 8px;
+}
+
+.li-effect:hover {
+    border-bottom: 1px solid black;
+    transition: 0.2s ease-in-out;
+}
+
+.bot-effect:hover {
+    filter: brightness(1.6);
+    transition: 0.2s ease-in-out;
 }
 
 /* jumbotron */
